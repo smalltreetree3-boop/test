@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>REALORIA 統合管制室</title>
+<link rel="stylesheet" href="/app.css">
+<script src="/app.js" defer></script>
+</head>
+<body>
+<div id="login" class="login" hidden>
+  <form id="login-form" class="login-card">
+    <div class="brand-lg">REALORIA</div>
+    <p class="muted">AI統合管制室 — Claude Code 独立実装 (試作)</p>
+    <label>利用者ID<input name="id" autocomplete="username" required></label>
+    <label>パスワード<input name="password" type="password" autocomplete="current-password" required></label>
+    <button class="btn primary" type="submit">ログイン</button>
+    <p id="login-error" class="error" role="alert"></p>
+    <p class="fine">模擬AIのみ有効です。外部AIへの送信・公開・承認は行いません。</p>
+  </form>
+</div>
+
+<div id="app" class="app" hidden>
+  <header class="topbar">
+    <div class="brand">REALORIA <span class="brand-sub">統合管制室</span></div>
+    <div class="top-status">
+      <span id="sys-pill" class="pill">—</span>
+      <span id="audit-pill" class="pill">監査 —</span>
+      <span id="reg-pill" class="pill warn" title="正式情報源と未照合">組織定義 未照合</span>
+    </div>
+    <div class="top-actions">
+      <span id="me" class="muted me"></span>
+      <button id="btn-stop" class="btn danger" title="全ジョブを停止し、新規受付を止めます">緊急停止</button>
+      <button id="btn-logout" class="btn ghost">ログアウト</button>
+    </div>
+  </header>
+
+  <nav class="nav" id="nav" aria-label="主要画面"></nav>
+
+  <main class="main">
+    <section id="view-home" class="view"></section>
+    <section id="view-org" class="view" hidden></section>
+    <section id="view-network" class="view" hidden></section>
+    <section id="view-chat" class="view" hidden></section>
+    <section id="view-jobs" class="view" hidden></section>
+    <section id="view-audit" class="view" hidden></section>
+  </main>
+</div>
+
+<dialog id="dlg" class="dlg">
+  <div class="dlg-head"><h3 id="dlg-title"></h3><button class="btn ghost" id="dlg-close" aria-label="閉じる">×</button></div>
+  <div id="dlg-body"></div>
+</dialog>
+</body>
+</html>

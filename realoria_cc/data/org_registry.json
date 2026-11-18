@@ -1,0 +1,539 @@
+{
+  "registry_version": "0.1.0-unverified",
+  "source": "Claude Code引き継ぎプロンプト第4節（本部名・機能番号範囲のみ）。正式情報源とは未照合。",
+  "verified": false,
+  "headquarters": [
+    {
+      "id": "HQ1",
+      "label": "第1本部",
+      "name": "経営・ガバナンス",
+      "range": [
+        1,
+        6
+      ],
+      "icon": "briefcase"
+    },
+    {
+      "id": "HQ2",
+      "label": "第2本部",
+      "name": "編集・ドキュメンタリー",
+      "range": [
+        7,
+        14
+      ],
+      "icon": "pen"
+    },
+    {
+      "id": "HQ3",
+      "label": "第3本部",
+      "name": "読者・成長",
+      "range": [
+        15,
+        20
+      ],
+      "icon": "users"
+    },
+    {
+      "id": "HQ4",
+      "label": "第4本部",
+      "name": "事業・収益",
+      "range": [
+        21,
+        25
+      ],
+      "icon": "chart"
+    },
+    {
+      "id": "HQ5",
+      "label": "第5本部",
+      "name": "プラットフォーム・運用",
+      "range": [
+        26,
+        30
+      ],
+      "icon": "server"
+    },
+    {
+      "id": "HQ6",
+      "label": "第6本部",
+      "name": "アーカイブ・知識・継承",
+      "range": [
+        31,
+        33
+      ],
+      "icon": "archive"
+    }
+  ],
+  "functions": [
+    {
+      "id": "01",
+      "hq": "HQ1",
+      "name": "基幹機能01（正式名称未照合）",
+      "verification": "unverified",
+      "mode": "analysis",
+      "allowed_outputs": [
+        "analysis",
+        "signal"
+      ],
+      "approval_authority": null,
+      "note": "正式な役割・権限は現行正式情報源と未照合。"
+    },
+    {
+      "id": "02",
+      "hq": "HQ1",
+      "name": "基幹機能02（正式名称未照合）",
+      "verification": "unverified",
+      "mode": "analysis",
+      "allowed_outputs": [
+        "analysis",
+        "signal"
+      ],
+      "approval_authority": null,
+      "note": "正式な役割・権限は現行正式情報源と未照合。"
+    },
+    {
+      "id": "03",
+      "hq": "HQ1",
+      "name": "基幹機能03（正式名称未照合）",
+      "verification": "unverified",
+      "mode": "analysis",
+      "allowed_outputs": [
+        "analysis",
+        "signal"
+      ],
+      "approval_authority": null,
+      "note": "正式な役割・権限は現行正式情報源と未照合。"
+    },
+    {
+      "id": "04",
+      "hq": "HQ1",
+      "name": "基幹機能04（正式名称未照合）",
+      "verification": "unverified",
+      "mode": "analysis",
+      "allowed_outputs": [
+        "analysis",
+        "signal"
+      ],
+      "approval_authority": null,
+      "note": "正式な役割・権限は現行正式情報源と未照合。"
+    },
+    {
+      "id": "05",
+      "hq": "HQ1",
+      "name": "基幹機能05（正式名称未照合）",
+      "verification": "unverified",
+      "mode": "analysis",
+      "allowed_outputs": [
+        "analysis",
+        "signal"
+      ],
+      "approval_authority": null,
+      "note": "正式な役割・権限は現行正式情報源と未照合。"
+    },
+    {
+      "id": "06",
+      "hq": "HQ1",
+      "name": "基幹機能06（正式名称未照合）",
+      "verification": "unverified",
+      "mode": "analysis",
+      "allowed_outputs": [
+        "analysis",
+        "signal"
+      ],
+      "approval_authority": null,
+      "note": "正式な役割・権限は現行正式情報源と未照合。"
+    },
+    {
+      "id": "07",
+      "hq": "HQ2",
+      "name": "基幹機能07（正式名称未照合）",
+      "verification": "unverified",
+      "mode": "analysis",
+      "allowed_outputs": [
+        "analysis",
+        "signal"
+      ],
+      "approval_authority": null,
+      "note": "正式な役割・権限は現行正式情報源と未照合。"
+    },
+    {
+      "id": "08",
+      "hq": "HQ2",
+      "name": "基幹機能08（正式名称未照合）",
+      "verification": "unverified",
+      "mode": "analysis",
+      "allowed_outputs": [
+        "analysis",
+        "signal"
+      ],
+      "approval_authority": null,
+      "note": "正式な役割・権限は現行正式情報源と未照合。"
+    },
+    {
+      "id": "09",
+      "hq": "HQ2",
+      "name": "基幹機能09（正式名称未照合）",
+      "verification": "unverified",
+      "mode": "analysis",
+      "allowed_outputs": [
+        "analysis",
+        "signal"
+      ],
+      "approval_authority": null,
+      "note": "正式な役割・権限は現行正式情報源と未照合。"
+    },
+    {
+      "id": "10",
+      "hq": "HQ2",
+      "name": "基幹機能10（正式名称未照合）",
+      "verification": "unverified",
+      "mode": "analysis",
+      "allowed_outputs": [
+        "analysis",
+        "signal"
+      ],
+      "approval_authority": null,
+      "note": "正式な役割・権限は現行正式情報源と未照合。"
+    },
+    {
+      "id": "11",
+      "hq": "HQ2",
+      "name": "基幹機能11（正式名称未照合）",
+      "verification": "unverified",
+      "mode": "analysis",
+      "allowed_outputs": [
+        "analysis",
+        "signal"
+      ],
+      "approval_authority": null,
+      "note": "正式な役割・権限は現行正式情報源と未照合。"
+    },
+    {
+      "id": "12",
+      "hq": "HQ2",
+      "name": "基幹機能12（正式名称未照合）",
+      "verification": "unverified",
+      "mode": "analysis",
+      "allowed_outputs": [
+        "analysis",
+        "signal"
+      ],
+      "approval_authority": null,
+      "note": "正式な役割・権限は現行正式情報源と未照合。"
+    },
+    {
+      "id": "13",
+      "hq": "HQ2",
+      "name": "基幹機能13（正式名称未照合）",
+      "verification": "unverified",
+      "mode": "analysis",
+      "allowed_outputs": [
+        "analysis",
+        "signal"
+      ],
+      "approval_authority": null,
+      "note": "正式な役割・権限は現行正式情報源と未照合。"
+    },
+    {
+      "id": "14",
+      "hq": "HQ2",
+      "name": "基幹機能14（正式名称未照合）",
+      "verification": "unverified",
+      "mode": "analysis",
+      "allowed_outputs": [
+        "analysis",
+        "signal"
+      ],
+      "approval_authority": null,
+      "note": "正式な役割・権限は現行正式情報源と未照合。"
+    },
+    {
+      "id": "15",
+      "hq": "HQ3",
+      "name": "基幹機能15（正式名称未照合）",
+      "verification": "unverified",
+      "mode": "analysis",
+      "allowed_outputs": [
+        "analysis",
+        "signal"
+      ],
+      "approval_authority": null,
+      "note": "正式な役割・権限は現行正式情報源と未照合。"
+    },
+    {
+      "id": "16",
+      "hq": "HQ3",
+      "name": "基幹機能16（正式名称未照合）",
+      "verification": "unverified",
+      "mode": "analysis",
+      "allowed_outputs": [
+        "analysis",
+        "signal"
+      ],
+      "approval_authority": null,
+      "note": "正式な役割・権限は現行正式情報源と未照合。"
+    },
+    {
+      "id": "17",
+      "hq": "HQ3",
+      "name": "基幹機能17（正式名称未照合）",
+      "verification": "unverified",
+      "mode": "analysis",
+      "allowed_outputs": [
+        "analysis",
+        "signal"
+      ],
+      "approval_authority": null,
+      "note": "正式な役割・権限は現行正式情報源と未照合。"
+    },
+    {
+      "id": "18",
+      "hq": "HQ3",
+      "name": "基幹機能18（正式名称未照合）",
+      "verification": "unverified",
+      "mode": "analysis",
+      "allowed_outputs": [
+        "analysis",
+        "signal"
+      ],
+      "approval_authority": null,
+      "note": "正式な役割・権限は現行正式情報源と未照合。"
+    },
+    {
+      "id": "19",
+      "hq": "HQ3",
+      "name": "基幹機能19（正式名称未照合）",
+      "verification": "unverified",
+      "mode": "analysis",
+      "allowed_outputs": [
+        "analysis",
+        "signal"
+      ],
+      "approval_authority": null,
+      "note": "正式な役割・権限は現行正式情報源と未照合。"
+    },
+    {
+      "id": "20",
+      "hq": "HQ3",
+      "name": "基幹機能20（正式名称未照合）",
+      "verification": "unverified",
+      "mode": "analysis",
+      "allowed_outputs": [
+        "analysis",
+        "signal"
+      ],
+      "approval_authority": null,
+      "note": "正式な役割・権限は現行正式情報源と未照合。"
+    },
+    {
+      "id": "21",
+      "hq": "HQ4",
+      "name": "基幹機能21（正式名称未照合）",
+      "verification": "unverified",
+      "mode": "analysis",
+      "allowed_outputs": [
+        "analysis",
+        "signal"
+      ],
+      "approval_authority": null,
+      "note": "正式な役割・権限は現行正式情報源と未照合。"
+    },
+    {
+      "id": "22",
+      "hq": "HQ4",
+      "name": "基幹機能22（正式名称未照合）",
+      "verification": "unverified",
+      "mode": "analysis",
+      "allowed_outputs": [
+        "analysis",
+        "signal"
+      ],
+      "approval_authority": null,
+      "note": "正式な役割・権限は現行正式情報源と未照合。"
+    },
+    {
+      "id": "23",
+      "hq": "HQ4",
+      "name": "基幹機能23（正式名称未照合）",
+      "verification": "unverified",
+      "mode": "signal_only",
+      "allowed_outputs": [
+        "signal"
+      ],
+      "approval_authority": null,
+      "note": "Future Business関連機能（原則Signal限定）。正式範囲は未照合。"
+    },
+    {
+      "id": "24",
+      "hq": "HQ4",
+      "name": "基幹機能24（正式名称未照合）",
+      "verification": "unverified",
+      "mode": "signal_only",
+      "allowed_outputs": [
+        "signal"
+      ],
+      "approval_authority": null,
+      "note": "Future Business関連機能（原則Signal限定）。正式範囲は未照合。"
+    },
+    {
+      "id": "25",
+      "hq": "HQ4",
+      "name": "基幹機能25（正式名称未照合）",
+      "verification": "unverified",
+      "mode": "signal_only",
+      "allowed_outputs": [
+        "signal"
+      ],
+      "approval_authority": null,
+      "note": "Future Business関連機能（原則Signal限定）。正式範囲は未照合。"
+    },
+    {
+      "id": "26",
+      "hq": "HQ5",
+      "name": "基幹機能26（正式名称未照合）",
+      "verification": "unverified",
+      "mode": "analysis",
+      "allowed_outputs": [
+        "analysis",
+        "signal"
+      ],
+      "approval_authority": null,
+      "note": "正式な役割・権限は現行正式情報源と未照合。"
+    },
+    {
+      "id": "27",
+      "hq": "HQ5",
+      "name": "基幹機能27（正式名称未照合）",
+      "verification": "unverified",
+      "mode": "analysis",
+      "allowed_outputs": [
+        "analysis",
+        "signal"
+      ],
+      "approval_authority": null,
+      "note": "正式な役割・権限は現行正式情報源と未照合。"
+    },
+    {
+      "id": "28",
+      "hq": "HQ5",
+      "name": "基幹機能28（正式名称未照合）",
+      "verification": "unverified",
+      "mode": "analysis",
+      "allowed_outputs": [
+        "analysis",
+        "signal"
+      ],
+      "approval_authority": null,
+      "note": "正式な役割・権限は現行正式情報源と未照合。"
+    },
+    {
+      "id": "29",
+      "hq": "HQ5",
+      "name": "基幹機能29（正式名称未照合）",
+      "verification": "unverified",
+      "mode": "analysis",
+      "allowed_outputs": [
+        "analysis",
+        "signal"
+      ],
+      "approval_authority": null,
+      "note": "正式な役割・権限は現行正式情報源と未照合。"
+    },
+    {
+      "id": "30",
+      "hq": "HQ5",
+      "name": "基幹機能30（正式名称未照合）",
+      "verification": "unverified",
+      "mode": "analysis",
+      "allowed_outputs": [
+        "analysis",
+        "signal"
+      ],
+      "approval_authority": null,
+      "note": "正式な役割・権限は現行正式情報源と未照合。"
+    },
+    {
+      "id": "31",
+      "hq": "HQ6",
+      "name": "基幹機能31（正式名称未照合）",
+      "verification": "unverified",
+      "mode": "analysis",
+      "allowed_outputs": [
+        "analysis",
+        "signal"
+      ],
+      "approval_authority": null,
+      "note": "正式な役割・権限は現行正式情報源と未照合。"
+    },
+    {
+      "id": "32",
+      "hq": "HQ6",
+      "name": "基幹機能32（正式名称未照合）",
+      "verification": "unverified",
+      "mode": "analysis",
+      "allowed_outputs": [
+        "analysis",
+        "signal"
+      ],
+      "approval_authority": null,
+      "note": "正式な役割・権限は現行正式情報源と未照合。"
+    },
+    {
+      "id": "33",
+      "hq": "HQ6",
+      "name": "基幹機能33（正式名称未照合）",
+      "verification": "unverified",
+      "mode": "analysis",
+      "allowed_outputs": [
+        "analysis",
+        "signal"
+      ],
+      "approval_authority": null,
+      "note": "正式な役割・権限は現行正式情報源と未照合。"
+    }
+  ],
+  "committees": [
+    {
+      "id": "C1",
+      "name": "委員会1（名称未照合）",
+      "verification": "unverified"
+    },
+    {
+      "id": "C2",
+      "name": "委員会2（名称未照合）",
+      "verification": "unverified"
+    },
+    {
+      "id": "C3",
+      "name": "委員会3（名称未照合）",
+      "verification": "unverified"
+    }
+  ],
+  "governance": [
+    {
+      "id": "G1",
+      "name": "横断統制G1（内容未照合）",
+      "verification": "unverified"
+    },
+    {
+      "id": "G2",
+      "name": "横断統制G2（内容未照合）",
+      "verification": "unverified"
+    },
+    {
+      "id": "G3",
+      "name": "横断統制G3（内容未照合）",
+      "verification": "unverified"
+    },
+    {
+      "id": "G4",
+      "name": "横断統制G4（内容未照合）",
+      "verification": "unverified"
+    },
+    {
+      "id": "G5",
+      "name": "横断統制G5（内容未照合）",
+      "verification": "unverified"
+    }
+  ]
+}
